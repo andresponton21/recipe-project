@@ -110,7 +110,9 @@ main {
 
 blockquote {
     border-left: 3px solid #FFBC48;
-    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 40px;
 }
  .side-content {
      background-color: #FFBC48;
