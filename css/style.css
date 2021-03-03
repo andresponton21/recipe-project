@@ -1,7 +1,9 @@
 
+
 body{
-    background-color:#222028;
-   
+    background-color:#423d3d;
+    margin: 0;
+    
 }
 article {
 
@@ -9,9 +11,13 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* this section is the header of the article */
+
 .header{
     background-image: url(../img/gallery-c.jpg);
     background-size: cover;
+    background-position: center;
     background-blend-mode: overlay;
     background-color: #222028;
     color: white;
@@ -21,32 +27,24 @@ article {
 .header-logo {
     background-color: #FFBC48;
     color: #222028;
-    padding: 0.5em;
-    font-weight: bold;
+    padding: 0.5rem;
+    font-weight: bolder;
 }
 
 .title {
-    font-size: 3em;
+    font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-h3 {
-    text-transform: uppercase;
-}
-img {
-    width: 22.15em;
-    height: 18em;
 }
 
-.slogan {
-    
-    font-size: 1.5em;
+.sub-title { 
+    font-size: 1.35rem;
+    text-align: left;
 }
 
-.slogan1 {
+.underlined-text {
     text-decoration: underline;
-    color: #FFBC48;
-    
+    color: #FFBC48;  
+    font-weight: bold;  
 }
 
 
@@ -57,10 +55,10 @@ img {
 }
 
 .header-list li {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.25rem;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.25rem;
  }
 .header-item {
     background-color: #FFBC48;
@@ -68,13 +66,16 @@ img {
     margin-left: 0.5em;
     padding-left: 0.2em;
     padding-right: 0.2em;
-    
+    font-size: 0.9em;
  }
 
 
+/* this section is the navigation menu */
 
 .navigation{
-background-color:#4b444060;    
+background-color:#222028; 
+padding-top: 0.5rem;   
+padding-bottom: 0.5rem;
     
 }
 
@@ -85,10 +86,10 @@ background-color:#4b444060;
 
 .inline-menu li {
 
-    font-size: 1.5em;
-    padding: 0.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     list-style-type: none;
     color: #FFBC48;
     
@@ -99,15 +100,55 @@ background-color:#4b444060;
     color: goldenrod;
 }
 
+
+/* this is the main section of the article*/
+
 .main {
    
     background-color: white;
-    padding: 0.5em;
+    padding: 0.5rem;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+h3 {
+    text-transform: uppercase;
+}
+/* these are the images */
 
+.images {
+    width: 34rem;
+    height: 25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gallery {
+    background-image: url(../img/gallery-a.jpg);
+}
+.mixing {
+    background-image: url(../img/mixing-ingredients-480w.jpg);
+}
+.folding {
+    background-image: url(../img/folding-dough-480w.jpg);
+}
+.proofing {
+    background-image: url(../img/proofing-480w.jpg);
+}
+.baking {
+    background-image: url(../img/baked-baguettes-960w.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ready {
+    background-image: url(../img/ready-to-eat-960w.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* End of imgages */
+
+/* quote by writer */
 blockquote {
     font-size: 1em;
     border-left: 3px solid #FFBC48;
@@ -115,6 +156,9 @@ blockquote {
     margin-right: 0;
     padding: 0 calc(1em - 3px);
 }
+
+
+/* this section is for side content of the article */
  .side-content {
      display: none;
      background-color: #FFBC48;
