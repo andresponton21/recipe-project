@@ -118,10 +118,11 @@ h3 {
 /* these are the images */
 
 .images {
-    width: 27.25em;
+    width: auto;
     height: 25em;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .gallery {
     background-image: url(../img/gallery-a.jpg);
@@ -137,13 +138,11 @@ h3 {
 }
 .baking {
     background-image: url(../img/baked-baguettes-960w.jpg);
-    background-size: cover;
-    background-position: center;
+    
 }
 .ready {
     background-image: url(../img/ready-to-eat-960w.jpg);
-    background-size: cover;
-    background-position: center;
+
 }
 
 /* End of imgages */
@@ -159,7 +158,7 @@ blockquote {
 
 
 /* this section is for side content of the article */
- .side-content {
+.side-content {
      display: none;
      background-color: #FFBC48;
      text-align: justify;
@@ -170,7 +169,37 @@ blockquote {
     font-weight: bold;
 }
 
- footer {
-     background-color: black;
-     color: white;
+
+ /* this section is for the table */
+table {
+     height: 25rem;
+     width: 100%;
+     border-collapse: collapse;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
+tr {
+    height: 3.125em;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(224, 217, 217);
+  }
+
+.table-header{
+      text-align: center;
+      vertical-align: middle;
+      background-color: white;
+  }
+  
+th, td {
+    border: 2px solid gray;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* this section is for the footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
