@@ -118,8 +118,8 @@ h3 {
 /* these are the images */
 
 .images {
-    width: 34rem;
-    height: 25rem;
+    width: 27.25em;
+    height: 25em;
     background-size: contain;
     background-repeat: no-repeat;
 }
