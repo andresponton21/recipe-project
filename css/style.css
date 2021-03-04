@@ -110,7 +110,7 @@ padding-bottom: 0.5rem;
     text-align: justify;
     font-size: 1.25rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+  
 }
 h3 {
     text-transform: uppercase;
@@ -200,6 +200,50 @@ th, td {
 /* this section is for the footer */
 
 footer {
-    background-color: black;
+    padding: 1em;
+    background-color: #222028;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-item {
+    color: #FFBC48;
+    text-decoration: underline;
+}
+.list-icons {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.icons {
+    padding: 1em;
+    width: auto;
+    height: 1em;
+    margin: 0.2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.face {
+    background-image: url(../img/face.png);
+}
+.insta {
+    background-image: url(../img/insta.png);
+}
+.tweet {
+    background-image: url(../img/tweet.png);
+}
+.copy-logo {
+    background-image: url(../img/copy-logo.png);
+    padding: 0.5em;
+    width: auto;
+    height: 0.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
