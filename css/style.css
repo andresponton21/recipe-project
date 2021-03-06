@@ -95,9 +95,18 @@ padding-bottom: 0.5rem;
     
 }
 
+.inline-menu li:hover {
+    background-color: #FFBC48;
+    
+}
+
 .inline-menu a {
     text-decoration: none;
     color: goldenrod;
+}
+
+.inline-menu a:hover {
+    color: white;
 }
 
 
@@ -123,6 +132,9 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.images:hover {
+    border: 5px solid #FFBC48;
 }
 .gallery {
     background-image: url(../img/gallery-a.jpg);
